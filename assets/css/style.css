@@ -1,0 +1,56 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    width: 100%;
+}
+
+h1 {
+    font: bold 5em "Roboto Mono", monospace;
+    text-shadow: .05em .05em .1em lightslategray;
+}
+
+.nav-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.nav-btn:hover {
+    background-color: #0d360d;
+}
+
+nav {
+    border-bottom: 2px solid #333;
+    margin-bottom: 30px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+h2 {
+    font-family: 'Inconsolata', monospace;
+    text-shadow: .05em .05em .1em lightslategray;
+}
+
+p {
+    font-family: 'Space Mono', monospace;
+}
+
+section {
+    width: 50%;
+    margin: auto auto 50px auto;
+    border-bottom: 2px solid #333;
+}
+
+img {
+    width: 70%;
+    border: 1px solid #333;
+    box-shadow: 2px 2px 5px grey;
+}
+
+h1, h2, nav, figure {
+    text-align: center;
+}
