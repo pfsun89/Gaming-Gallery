@@ -42,6 +42,12 @@ h2 {
     text-shadow: .05em .05em .1em lightslategray;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
 /* Changed font of paragraph text */
 p {
     font-family: 'Space Mono', monospace;
